@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="2276" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1833" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,8 +141,8 @@
         <mxCell id="P5gAPSLglX06-uZjF2LX-42" value="CheckAvailability(courseID)" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="P5gAPSLglX06-uZjF2LX-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P5gAPSLglX06-uZjF2LX-43" value="Alt&lt;br&gt;[login validation is true]" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=50;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="190" width="800" height="490" as="geometry" />
+        <mxCell id="P5gAPSLglX06-uZjF2LX-43" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Alt&lt;br&gt;[login validation is true]&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=60;height=100;" vertex="1" parent="1">
+          <mxGeometry x="10" y="190" width="750" height="490" as="geometry" />
         </mxCell>
         <mxCell id="P5gAPSLglX06-uZjF2LX-44" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -155,8 +155,8 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P5gAPSLglX06-uZjF2LX-46" value="Alt&lt;br&gt;[if course available]" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=65;height=60;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="400" width="730" height="200" as="geometry" />
+        <mxCell id="P5gAPSLglX06-uZjF2LX-46" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Alt&lt;br&gt;[if course available]&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=60;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="700" height="200" as="geometry" />
         </mxCell>
         <mxCell id="P5gAPSLglX06-uZjF2LX-47" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -203,7 +203,7 @@
             <mxPoint x="75" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P5gAPSLglX06-uZjF2LX-56" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.997;entryY=0.665;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.67;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="P5gAPSLglX06-uZjF2LX-56" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.997;entryY=0.665;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.904;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="P5gAPSLglX06-uZjF2LX-43">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-40" y="632.45" as="sourcePoint" />
             <mxPoint x="757.5999999999999" y="630.0000000000001" as="targetPoint" />
@@ -220,11 +220,11 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P5gAPSLglX06-uZjF2LX-59" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;[else course unavailable]&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-15" y="485" width="100" height="30" as="geometry" />
+        <mxCell id="P5gAPSLglX06-uZjF2LX-59" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;[else course&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;unavailable]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="490" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P5gAPSLglX06-uZjF2LX-61" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;[else Login Failed&lt;/font&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="630" width="100" height="30" as="geometry" />
+        <mxCell id="P5gAPSLglX06-uZjF2LX-61" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;[else&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;Login Failed&lt;/font&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="630" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
