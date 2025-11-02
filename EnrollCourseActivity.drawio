@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="Student" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="20" y="96" width="350" height="730" as="geometry" />
+          <mxGeometry x="20" y="100" width="350" height="730" as="geometry" />
         </mxCell>
         <mxCell id="5" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="2" vertex="1">
           <mxGeometry x="130" y="30" width="30" height="30" as="geometry" />
@@ -46,8 +46,9 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HzyFgHtcUjm4GNz0ZX8x-98" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="2" source="HzyFgHtcUjm4GNz0ZX8x-85" target="HzyFgHtcUjm4GNz0ZX8x-45">
+        <mxCell id="HzyFgHtcUjm4GNz0ZX8x-98" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="2" target="HzyFgHtcUjm4GNz0ZX8x-45">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="540" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="35" y="467" />
               <mxPoint x="35" y="362" />
